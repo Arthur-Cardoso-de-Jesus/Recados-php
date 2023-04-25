@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,400;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #141414;
+}
+
+#formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #292929;
+    padding: 3em;
+    border-radius: 0.5em;
+}
+#titulo-formulario{
+    margin-bottom: 1em;
+    color: white;
+}
+#btn-entrar {
+    padding: 0.8em;
+    width: 100%;
+    background-image: linear-gradient(to right, #006200, #00eb00);
+    border-radius: 3em;
+    border: none;
+    color: white;
+    font-weight: 500;
+    transition: 250ms;
+}
+#btn-entrar:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+#area{
+    width: 75vh;
+    padding: 1em;
+    border-radius: 0.5em;
+    outline: none;
+    background-color: #393939;
+    border: none;
+    color: white;
+    transition: 250ms;
+    border: 1px solid #393939;
+}
+#area:focus{
+border: 1px solid #00eb00;
+}
+#data{
+    background-color: #393939;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1em;
+    border-radius: 3em;
+    border: 1px solid #006200;
+}

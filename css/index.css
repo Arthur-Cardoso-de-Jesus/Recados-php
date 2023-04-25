@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,400;1,500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Montserrat', san-serif;
+}
+h1{
+    font-weight: 300;
+    color: white;
+}
+h3{
+    font-weight: 300;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #141414;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #292929;
+    padding: 3em;
+    border-radius: 0.5em;
+}
+
+#titulo-formulario {
+    margin-bottom: 1em;
+}
+
+.login {
+    padding: 0.8em;
+    width: 100%;
+    outline: none;
+    background-color: #292929;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: white;
+    transition: 250ms;
+}
+.login:focus{
+    border-bottom: 1px solid #00eb00;
+}
+
+#btn-entrar {
+    padding: 0.8em;
+    width: 100%;
+    background-image: linear-gradient(to right, #006200, #00eb00);
+    border-radius: 3em;
+    border: none;
+    color: white;
+    font-weight: 500;
+    transition: 250ms;
+}
+#btn-entrar:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+
+#container-cadastro {
+    display: flex;
+    gap: 10px;
+}
+
+
+a{
+    color: white;
+    transition: 250ms;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #00eb00;
+}
+
